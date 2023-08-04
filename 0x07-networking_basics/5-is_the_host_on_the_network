@@ -4,5 +4,5 @@
 if ! [ "${1}" ]; then
 	echo "Usage: $(basename "${BASH_SOURCE[@]}") {IP_ADDRESS}"
 else
-	ping -c 5 "${IP}"
+	ping -c 5 "${1}"
 fi
